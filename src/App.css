@@ -3,6 +3,7 @@
 body {
   margin: 0px;
   padding: 0px;
+  background-color: #23252C;
 }
 
 /* .main{
@@ -14,7 +15,6 @@ body {
 } */
 
 .container {
-  background-color: #23252C;
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -169,4 +169,11 @@ body {
 
 .footer li{
   cursor: pointer;
+}
+
+@media only screen and (max-width:600px){
+  .container{
+    margin-top: 400px;
+    height: 20px;
+  }
 }
